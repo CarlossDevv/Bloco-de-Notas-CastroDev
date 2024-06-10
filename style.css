@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: radial-gradient(circle, rgba(200,137,165,1) 0%, rgba(148,187,233,1) 50%, rgba(136,132,204,1) 100%);
+}
+
+.bloco{
+    max-width: 530px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+}
+
+.bloco .add-tarefa{
+    height: 40px;
+    max-width: 325px;
+    width: 100%;
+    border: 1px solid rgba(136,132,204,1);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+    padding-left: 5px;
+
+    transition: all 0.3s;
+}
+
+.bloco .add-tarefa:hover{
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bloco .adicionar{
+    max-width: 120px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(136,132,204,1);
+    background: rgba(148,187,233,1);
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    transition: all 0.3s;
+}
+
+.bloco .adicionar:hover{
+    background: rgb(187, 203, 223);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bloco .afazeres-list{
+    margin-top: 20px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+
+    padding: 5px;
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+    list-style-type: none;
+}
+
+.bloco span{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    color: rgb(36, 36, 36);
+    font-size: 16px;
+}
